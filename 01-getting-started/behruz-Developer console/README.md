@@ -26,7 +26,7 @@ Press F12 or, if you’re on Mac, then Cmd+Opt+J.
 
 The developer tools will open on the Console tab by default.
 
-It looks somewhat like this:
+It looks somewhat like this:af
 
 
 The exact look of developer tools depends on your version of Chrome. It changes from time to time but should be similar.
