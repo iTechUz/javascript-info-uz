@@ -1,31 +1,30 @@
-# An Introduction to JavaScript
+# Javascript bilan tanishish
 
-Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.
+Javascript haqida maxsus narsalarni ko'rib chiqamiz,bu bilan nimaga erishamiz,va bu bilan boshqa qanday texnologiyalar yaxshi ishlaydi.
 
-## What is JavaScript?
+# Javascript nima?
 
-*JavaScript* was initially created to "make web pages alive".
+*JavaScript* dastlab sahifani jonlantirish ucun yasalgan.
 
-The programs in this language are called *scripts*. They can be written right in a web page's HTML and run automatically as the page loads.
+Bu dastur tili *scripts* deb atalgan. Ular veb-sahifaning HTML-da to'g'ri yozilishi va sahifa yuklanishi bilan avtomatik ravishda ishga tushishi mumkun bo'lgan bo'lgan.
 
-Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.
+Skriptlar oddiy matn sifatida taqdim etiladi va bajariladi. Sizga maxsus ishga tushurish uchun komplikatsiya kerak emas.
 
-In this aspect, JavaScript is very different from another language called [Java](https://en.wikipedia.org/wiki/Java_(programming_language)).
+Bu yo'nalishda,JavaScript boshqa tillardan farq qilaadi.[Java](https://en.wikipedia.org/wiki/Java_(programming_language)).
 
-```smart header="Why is it called <u>Java</u>Script?"
-When JavaScript was created, it initially had another name: "LiveScript". But Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
+ # Nega bunday ataldi
+Javascript yaratilinganda, dastlab boshqa ismga ega bo'lgan: "LiveScript",lekin o'sha vaqtlarda Java juda mashhur edi, shuning uchun ular uni 'javaning ukasi' deb aytishgan.
 
-But as it evolved, JavaScript became a fully independent language with its own specification called [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), and now it has no relation to Java at all.
+Lekin u rivojlangani sari, JavaScript to'liq mustaqil til bo'ldi shahsi spestifikatsiyasi bilan [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), va hozir Java bilan bog'liqlik holati yo'q.
 ```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
+Bugun Javascript faqat brovzerda emas,balki serverlarda ham, yoki [the JavaScript engine] qurilmada ishlidi(https://en.wikipedia.org/wiki/JavaScript_engine).
 
-The browser has an embedded engine sometimes called a "JavaScript virtual machine".
+Brovzerda  "JavaScript virtual machine" nomli dvigiteli bor.
 
-Different engines have different "codenames". For example:
-
-- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome, Opera and Edge.
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
+Turli xil dvigitillar tutli xil codenamelariga ega.Misol uchun:
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- Chrome, Opera va Edgeda.
+- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- Firefoxda.
 - ...There are other codenames like "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
 
 The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome, Opera and Edge.
@@ -41,7 +40,7 @@ Engines are complicated. But the basics are easy.
 The engine applies optimizations at each step of the process. It even watches the compiled script as it runs, analyzes the data that flows through it, and further optimizes the machine code based on that knowledge.
 ```
 
-## What can in-browser JavaScript do?
+## Brovzerda JavaScript nima qila oladi ?
 
 Modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or the CPU, because it was initially created for browsers which do not require it.
 
@@ -57,7 +56,7 @@ For instance, in-browser JavaScript is able to:
 - Get and set cookies, ask questions to the visitor, show messages.
 - Remember the data on the client-side ("local storage").
 
-## What CAN'T in-browser JavaScript do?
+## Brovzerda JavaScript nima qila olmaydi ?
 
 JavaScript's abilities in the browser are limited to protect the user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
 
@@ -79,7 +78,7 @@ Examples of such restrictions include:
 
 Such limitations do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow plugins/extensions which may ask for extended permissions.
 
-## What makes JavaScript unique?
+# JavaScript noyob nimq qila oladi ?
 
 There are at least *three* great things about JavaScript:
 
@@ -115,7 +114,7 @@ Examples of such languages:
 
 There are more. Of course, even if we use one of these transpiled languages, we should also know JavaScript to really understand what we're doing.
 
-## Summary
+## Hisobotlar
 
 - JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
 - Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
