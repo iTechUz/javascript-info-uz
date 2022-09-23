@@ -1,4 +1,4 @@
-Qo'llanmalar va texnik xususiyatlar
+Qo'lanmalar va texnik xususiyatlar
 Bu kitob bir tutorial hisoblanadi. Bu sizga asta-sekin tilni o'rganishda yordam berishga qaratilgan. Ammo siz asoslar bilan tanishganingizdan so'ng, sizga boshqa manbalar kerak bo'ladi.
 
 Spetsifikatsiyasi
@@ -9,7 +9,7 @@ Lekin bu rasmiyat bo'lish, u birinchi da tushunish qiyin. Shunday qilib, agar si
 Har yili yangi spetsifikatsiya versiyasi chiqariladi. Ushbu versiyalar orasida so'nggi spetsifikatsiya loyihasi;
  https://tc39.es/ecma262/.
 
-Qon ketishining yangi xususiyatlari, shu jumladan deyarli standart  haqida o'qish uchun quyidagi takliflarga qarang ;
+ shu jumladan deyarli standart  haqida o'qish uchun quyidagi takliflarga qarang ;
 https://github.com/tc39/proposals.
 
 Bundan tashqari, agar siz brauzer uchun rivojlanayotgan bo'lsangiz, unda qo'llanmaning ikkinchi qismida keltirilgan boshqa xususiyatlar mavjud.
