@@ -65,3 +65,4 @@ Ushbu manbalarning barchasi hayotiy rivojlanishda foydalidir, chunki ularda til 
 
 iltimos  ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan holatlar uchun ularni  eslang.
 dostonbek
+jefnefjgit 
