@@ -64,5 +64,4 @@ Iltimos, ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan holatlar u
 Ushbu manbalarning barchasi hayotiy rivojlanishda foydalidir, chunki ularda til tafsilotlari, ularni qo'llab-quvvatlash va boshqalar haqida qimmatli ma'lumotlar mavjud.
 
 iltimos  ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan holatlar uchun ularni  eslang.
-dostonbek
-jefnefjgit 
+diowkldk
