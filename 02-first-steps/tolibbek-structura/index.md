@@ -20,6 +20,14 @@
     2.alert('World')
      Bu yerda javascriptqator uzilishida nuqtali vergul haqida"ochiq" sharhlagan.Bu avtomatik nuqta-vergul qo'yish deyiladi. 
 
+     Eng ko'p qutilar ichida,yangi qatorni nuqtali vergul bildiradi.Lekin "har doim " ham "Eng ko'p qutilar ichida"unday bo'lmaydi!
+     Qutilar qachon yangi qatorda nuqtali vergulni bildirmaydi.Masalan:
+     1.alert(3 +
+     2.1
+     3.+ 2);
+
+     Kod 6ni chiqaradi chunki Javascript bu yerga nuqtali vergul qo'ymagan.
+
 
 
 
