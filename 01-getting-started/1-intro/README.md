@@ -18,7 +18,7 @@ Javascript yaratilinganda, dastlab boshqa ismga ega bo'lgan: "LiveScript",lekin 
 Lekin u rivojlangani sari, JavaScript to'liq mustaqil til bo'ldi shahsi spestifikatsiyasi bilan [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), va hozir Java bilan bog'liqlik holati yo'q.
 ```
 
-Bugun Javascript faqat brovzerda emas,balki serverlarda ham, yoki [the JavaScript engine] qurilmada ishlidi(https://en.wikipedia.org/wiki/JavaScript_engine).
+Bugun Javascript faqat brovzerda emas,balki serverlarda ham  yoki [the JavaScript engine] qurilmada ishlidi(https://en.wikipedia.org/wiki/JavaScript_engine).
 
 Brovzerda  "JavaScript virtual machine" nomli dvigiteli bor.
 
