@@ -5,4 +5,4 @@ But we need a working environment to run our scripts and, since this book is onl
 
 So first, let's see how we attach a script to a webpage. For server-side environments (like Node.js), you can execute the script with a command like "node my.js".
 
-The "script" tag
+The "script" tag "script logo
