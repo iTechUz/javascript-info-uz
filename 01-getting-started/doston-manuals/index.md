@@ -1,67 +1,44 @@
-Qo'lanmalar va texnik xususiyatlar
-Bu kitob bir tutorial hisoblanadi. Bu sizga asta-sekin tilni o'rganishda yordam berishga qaratilgan. Ammo siz asoslar bilan tanishganingizdan so'ng, sizga boshqa manbalar kerak bo'ladi.
 
-Spetsifikatsiyasi
-ECMA-262 spetsifikatsiyasi JavaScript haqida eng chuqur, batafsil va rasmiylashtirilgan ma'lumotlarni o'z ichiga oladi. Bu tilni belgilaydi.
+# Qo'llanmalar va texnik xususiyatlar
 
-Lekin bu rasmiyat bo'lish, u birinchi da tushunish qiyin. Shunday qilib, agar sizga til tafsilotlari haqida eng ishonchli ma'lumot manbai kerak bo'lsa, spetsifikatsiya to'g'ri joy. Ammo bu kundalik foydalanish uchun emas.
 
-Har yili yangi spetsifikatsiya versiyasi chiqariladi. Ushbu versiyalar orasida so'nggi spetsifikatsiya loyihasi;
- https://tc39.es/ecma262/.
+Bu kitob *qo'llanma*. Bu sizga tilni bosqichma-bosqich o'rganishga yordam berishga qaratilgan. Ammo asoslar bilan tanishganingizdan so'ng, sizga boshqa manbalar kerak bo'ladi.
 
- shu jumladan deyarli standart  haqida o'qish uchun quyidagi takliflarga qarang ;
-https://github.com/tc39/proposals.
+## Spetsifikatsiya
 
-Bundan tashqari, agar siz brauzer uchun rivojlanayotgan bo'lsangiz, unda qo'llanmaning ikkinchi qismida keltirilgan boshqa xususiyatlar mavjud.
 
-Qo'llanmalar
-MDN  JavaScript Reference misollar va boshqa ma'lumotlar bilan asosiy qo'llanma hisoblanadi. Shaxsiy til funktsiyalari, usullari va boshqalar haqida chuqur ma'lumot olish juda yaxshi.
+[ECMA-262 spetsifikatsiyasi [ustiga bos](https://www.ecma-international.org/publications/standards/Ecma-262.htm) JavaScript haqida eng chuqur, batafsil va rasmiylashtirilgan ma'lumotlarni o'z ichiga oladi. U tilni belgilaydi.
 
-Siz uni topishingiz mumkin;
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference.
 
-Garchi, buning o'rniga ko'pincha internet qidiruvidan foydalanish yaxshidir. Faqat so'rovda MDN  dan foydalaning, masalan. 
-https://google.com/search?q=MDN + parseint parseint funksiyasini qidirish uchun.
+Ammo bu qadar rasmiylashtirilgan bo'lsa, dastlab tushunish qiyin. Shunday qilib, agar sizga til tafsilotlari haqida eng ishonchli ma'lumot manbasi kerak bo'lsa, spetsifikatsiya to'g'ri joy. Lekin u kundalik foydalanish uchun emas.
 
-Moslik jadvallari
-JavaScript rivojlanayotgan til, yangi xususiyatlar muntazam ravishda qo'shiladi.
 
-Brauzerga asoslangan va boshqa dvigatellar orasida ularni qo'llab-quvvatlashni ko'rish uchun qarang:
+Har yili spetsifikatsiyaning yangi versiyasi chiqariladi. Ushbu nashrlar orasida eng so'nggi spetsifikatsiya loyihasi [ustiga bos](https://tc39.es/ecma262/) manzilida joylashgan.
 
-https://caniuse.com -har bir xususiyat uchun qo'llab-quvvatlash jadvallari, masalan. qaysi dvigatellar zamonaviy kriptografiya funktsiyalarini qo'llab-quvvatlashini ko'rish uchun:
- https://caniuse.com/#feat=cryptography.
-https://kangax.Qo'llanmalar va texnik xususiyatlar
-Bu kitob bir tutorial hisoblanadi. Bu sizga asta-sekin tilni o'rganishda yordam berishga qaratilgan. Ammo siz asoslar bilan tanishganingizdan so'ng, sizga boshqa manbalar kerak bo'ladi.
 
-Spetsifikatsiyasi
-ECMA-262 spetsifikatsiyasi JavaScript haqida eng chuqur, batafsil va rasmiylashtirilgan ma'lumotlarni o'z ichiga oladi. Bu tilni belgilaydi.
 
-Lekin bu resmiyet bo'lish, u birinchi da tushunish qiyin. Shunday qilib, agar sizga til tafsilotlari haqida eng ishonchli ma'lumot manbai kerak bo'lsa, spetsifikatsiya to'g'ri joy. Ammo bu kundalik foydalanish uchun emas.
+Bundan tashqari, agar siz brauzer uchun ishlab chiqayotgan bo'lsangiz, qo'llanmaning [ikkinchi qismi](ma'lumot:brauzer-muhit)da boshqa spetsifikatsiyalar mavjud.
+## Qo'llanmalar
 
-Har yili yangi spetsifikatsiya versiyasi chiqariladi. Ushbu versiyalar orasida so'nggi spetsifikatsiya loyihasi https://tc39.es/ecma262/.
+- 
+**MDN (Mozilla) JavaScript havolasi** 
+misollar va boshqa ma'lumotlarga ega asosiy qo'llanma. Tilning individual funktsiyalari, usullari va boshqalar haqida chuqur ma'lumot olish juda yaxshi.
 
-Qon ketishining yangi xususiyatlari, shu jumladan "deyarli standart" ("3-bosqich" deb nomlangan) haqida o'qish uchun quyidagi takliflarga qarang https://github.com/tc39/proposals.
+  
+Uni [ustiga bos](index.mdhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) sahifasida topishingiz mumkin.
 
-Bundan tashqari, agar siz brauzer uchun rivojlanayotgan bo'lsangiz, unda qo'llanmaning ikkinchi qismida keltirilgan boshqa xususiyatlar mavjud.
+Biroq, buning o'rniga internet qidiruvidan foydalanish yaxshidir. So'rovda faqat "MDN [term]" dan foydalaning, masalan. `parseInt` funksiyasini qidirish uchun [shu yerda](https://google.com/search?q=MDN+parseInt).
 
-Qo'llanmalar
-MDN (Mozilla) JavaScript Reference misollar va boshqa ma'lumotlar bilan asosiy qo'llanma hisoblanadi. Shaxsiy til funktsiyalari, usullari va boshqalar haqida chuqur ma'lumot olish juda yaxshi.
+## Moslik jadvallari
 
-Siz uni topishingiz mumkin https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference.
+JavaScript rivojlanayotgan til bo'lib, yangi xususiyatlar muntazam qo'shiladi.
 
-Garchi, buning o'rniga ko'pincha internet qidiruvidan foydalanish yaxshidir. Faqat so'rovda "MDN [term]" dan foydalaning, masalan. https://google.com/search?q=MDN + parseInt parseInt funksiyasini qidirish uchun.
+Brauzerga asoslangan va boshqa dvigatellar orasida ularning yordamini ko'rish uchun qarang:
+-
+[shu yerga bos](https://caniuse.com) - har bir xususiyat uchun qo'llab-quvvatlash jadvallari, masalan. Qaysi dvigatellar zamonaviy kriptografiya funksiyalarini qo‘llab-quvvatlashini ko‘rish uchun: [shu yerga bos](https://caniuse.com/#feat=cryptography).
 
-Moslik jadvallari
-JavaScript rivojlanayotgan til, yangi xususiyatlar muntazam ravishda qo'shiladi.
+[shu yerga bos](https://kangax.github.io/compat-table) - qo'llab-quvvatlaydigan yoki qo'llab-quvvatlamaydigan til xususiyatlari va dvigatellari mavjud jadval.
 
-Brauzerga asoslangan va boshqa dvigatellar orasida ularni qo'llab-quvvatlashni ko'rish uchun qarang:
+Bu resurslarning barchasi real hayotni rivojlantirishda foydalidir, chunki ular til tafsilotlari, ularni qo'llab-quvvatlash va boshqalar haqida qimmatli ma'lumotlarni o'z ichiga oladi.
 
-https://caniuse.com -har bir xususiyat uchun qo'llab-quvvatlash jadvallari, masalan. qaysi dvigatellar zamonaviy kriptografiya funktsiyalarini qo'llab-quvvatlashini ko'rish uchun: https://caniuse.com/#feat=cryptography.
-https://kangax.github.io/compat-table -ularni qo'llab-quvvatlaydigan yoki qo'llab-quvvatlamaydigan til xususiyatlari va dvigatellari bo'lgan jadval.
-Ushbu manbalarning barchasi hayotiy rivojlanishda foydalidir, chunki ularda til tafsilotlari, ularni qo'llab-quvvatlash va boshqalar haqida qimmatli ma'lumotlar mavjud.
-
-Iltimos, ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan holatlar uchun ularni (yoki ushbu sahifani) eslang..io/compat-table -ularni qo'llab-quvvatlaydigan yoki qo'llab-quvvatlamaydigan til xususiyatlari va dvigatellari bo'lgan jadval.
-Ushbu manbalarning barchasi hayotiy rivojlanishda foydalidir, chunki ularda til tafsilotlari, ularni qo'llab-quvvatlash va boshqalar haqida qimmatli ma'lumotlar mavjud.
-
-iltimos  ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan holatlar uchun ularni  eslang.
-diowkldk
+Iltimos, ma'lum bir xususiyat haqida chuqur ma'lumotga muhtoj bo'lgan hollarda ularni (yoki ushbu sahifani) eslab qoling.
