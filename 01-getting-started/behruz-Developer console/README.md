@@ -1,49 +1,38 @@
-Developer console
-Code is prone to errors. You will quite likely make errors… Oh, what am I talking about? You are absolutely going to make errors, at least if you’re a human, not
+DASTURCHI  KONSOLI kod xatolar qiladi.katta ehtimol hato qilasz.o men nma dyapman. siz albatta hato qilasz odam bolsangiz.
 
-dasturchilar konsoli dasturchilar hat qilishadi bu aniq  siz odamsiz.
+Ammo brauzerdagi foydalanuvchilar bu hatolarni kormaydi.Agar scriptda biror nima notogri bolsa biz  koraolmymiz va togirlayolmaymiz.
 
-But in the browser, users don’t see errors by default. So, if something goes wrong in the script, we won’t see what’s broken and can’t fix it.
+Xatolarni korish va skriptlar haqida koplab boshqa foydali malumotlarni olish uchun brauzerlarda ishlab chiquvchi vositalar ornatilgan.
 
-ammo brazurdagi foydalanuvshilar siz qilgan hatoni kormaydi .
+Bazi ishlab chqaruvchilar ishlab chqarish uchun chrome fire-foxgadan foydalandilar.chunki bu saytlar eng yaxshi ishlab chiquvchi vositalar bor.Boshqa brauzerlar shuningdek bazan maxsus xususiyatlarga ega bo'lgan ishlab chiquvchilar vositalarini taqdim etadilar lekin odatda Chrome yoki Firefox uchun qolga olish ni oynaydilar. Shunday qilib ko'pchilik ishlab chiquvchilar sevimli brauzerga ega va muammo brauzerga xos bolsa boshqalarga o'tishadi.
 
-To see errors and get a lot of other useful information about scripts, “developer tools” have been embedded in browsers.
+ishlab chiqaruvchi vositalar kuchli va kop hususiyatlari bor.boshlash uchun biz uni ochib chiqib xatolarni korib va JavaScriptda buyruqlarni ishlatishni organamiz.
 
-brauzerlarni korish uchun script haqida ilovalar chiqgan.
+Google chrome bug html sahifasini oching.
 
-Most developers lean towards Chrome or Firefox for development because those browsers have the best developer tools. Other browsers also provide developer tools, sometimes with special features, but are usually playing “catch-up” to Chrome or Firefox. So most developers have a “favorite” browser and switch to others if a problem is browser-specific.
+Undagi javascript kodida hatolik bor.bu har doimgi tashrivchilar kozidan yasharingan.shuning uchn uni korish uchunn ishlab chiquvchi vositalarni ochaylik.
 
+F12 tugmalarini bosing yoki agar siz Mac-da bo'lsangiz Cmd+Opt+J tugmalarini bosing.
 
+Ishlab chiquvchi vositalari sukut boyicha Konsol yorligida ochiladi.
 
-Developer tools are potent; they have many features. To start, we’ll learn how to open them, look at errors, and run JavaScript commands.
+Bu qanday korinadi:af
 
-Google Chrome
-Open the page bug.html.
+Ishlab chiquvchi vositalarining aniq korinishi Chrome versiyasiga bogliq. Vaqti bilan ozgarib turadi lekin shunga oxshash bolishi kerak.
 
-There’s an error in the JavaScript code on it. It’s hidden from a regular visitor’s eyes, so let’s open developer tools to see it.
+Bu erda qizil rangli xato xabarini korishimiz mumkin. Bunday holda,skriptda nomalum lalala buyrugi mavjud.
+Ong tomonda xatolik yuz bergan satr raqami bilan bug html:12manbasiga bosiladigan havola mavjud.
+Xato xabari ostida kok > belgisi mavjud.Bu JavaScript buyruqlarini yozishimiz mumkin bolgan buyruqlar qatorini belgilaydi. Ularni ishga tushirish uchun Enter tugmasini bosing.
 
-Press F12 or, if you’re on Mac, then Cmd+Opt+J.
-
-The developer tools will open on the Console tab by default.
-
-It looks somewhat like this:af
+Endi biz xatolarni korishimiz mumkin va bu boshlash uchun etarli. Biz ishlab chiquvchi vositalariga keyinroq qaytamiz va brauzerda disk raskadrovka bolimida disk raskadrovkani chuquroq QAMRAB  olamiz.
 
 
-The exact look of developer tools depends on your version of Chrome. It changes from time to time but should be similar.
+Kop qatorli kirish Odatda biz konsolga kod qatorini qoyganimizda va Enter tugmasini bosganimizda u ishlaydi.
 
-Here we can see the red-colored error message. In this case, the script contains an unknown “lalala” command.
-On the right, there is a clickable link to the source bug.html:12 with the line number where the error has occurred.
-Below the error message, there is a blue > symbol. It marks a “command line” where we can type JavaScript commands. Press Enter to run them.
 
-Now we can see errors, and that’s enough for a start. We’ll come back to developer tools later and cover debugging more in-depth in the chapter Debugging in the browser.
+Bir nechta qatorlarni kiritish uchun Shift+Enter tugmalarini bosing. Shu tarzda JavaScript kodining uzun qismlarini kiritish mumkin.
 
-Multi-line input
-Usually, when we put a line of code into the console, and then press Enter, it executes.
-
-To insert multiple lines, press Shift+Enter. This way one can enter long fragments of JavaScript code.
-
-Firefox, Edge, and others
-Most other browsers use F12 to open developer tools.
+Firefox Edge va boshqalarKopgina boshqa brauzerlar ishlab chiquvchi vositalarini ochish uchun F12 dan foydalanadi.
 
 The look & feel of them is quite similar. Once you know how to use one of these tools (you can start with Chrome), you can easily switch to another.
 
