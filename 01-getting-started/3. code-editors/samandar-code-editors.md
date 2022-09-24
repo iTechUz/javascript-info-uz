@@ -1,4 +1,4 @@
-
+`   
 # Kod muharrirlari
 
 Kod muharriri - bu dasturchilar ko'p vaqtlarini o'tkazadigan joy.
