@@ -1,8 +1,12 @@
-Hello, world!
-This part of the tutorial is about core JavaScript, the language itself.
 
-But we need a working environment to run our scripts and, since this book is online, the browser is a good choice. We'll keep the amount of browser-specific commands (like alert) to a minimum so that you don't spend time on them if you plan to concentrate on another environment (like Node.js). We'll focus on JavaScript in the browser in the next part of the tutorial.
+Salom Dunyo!
+Qo'llanmaning ushbu qismi asosiy JavaScript, tilning o'zi haqida.
 
-So first, let's see how we attach a script to a webpage. For server-side environments (like Node.js), you can execute the script with a command like "node my.js".
+Ammo skriptlarimizni ishga tushirish uchun bizga ish muhiti kerak va bu kitob onlayn bo'lgani uchun brauzer yaxshi tanlovdir. Agar diqqatingizni boshqa muhitga (masalan, Node.js) qaratmoqchi bo‘lsangiz, ularga vaqt sarflamaslik uchun brauzerga xos buyruqlar miqdorini (masalan, ogohlantirish) minimal darajada ushlab turamiz. Qo'llanmaning keyingi qismida brauzerda JavaScript-ga e'tibor qaratamiz.
 
-The "script" tag
+Shunday qilib, avval veb-sahifaga skriptni qanday biriktirishimizni ko'rib chiqamiz. Server tomonidagi muhitlar uchun (masalan, Node.js) skriptni "node my.js" kabi buyruq bilan bajarishingiz mumkin.
+
+"Skript" yorlig'i
+
+( " Sanjar " )
+
