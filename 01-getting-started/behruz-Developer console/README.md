@@ -34,17 +34,14 @@ Bir nechta qatorlarni kiritish uchun Shift+Enter tugmalarini bosing. Shu tarzda 
 
 Firefox Edge va boshqalarKopgina boshqa brauzerlar ishlab chiquvchi vositalarini ochish uchun F12 dan foydalanadi.
 
-The look & feel of them is quite similar. Once you know how to use one of these tools (you can start with Chrome), you can easily switch to another.
+
+Ularning tashqi ko'rinishi va hissiyotlari juda oxshash. Ushbu vositalardan birini qanday ishlatishni bilganingizdan so'ng siz Chrome bilan boshlashingiz mumkin boshqasiga osongina o'tishingiz mumkin.
 
 Safari
-Safari (Mac browser, not supported by Windows/Linux) is a little bit special here. We need to enable the “Develop menu” first.
+Safari Windows/Linux tomonidan qollab-quvvatlanmaydigan Mac brauzeri bu erda biroz Oziga xosdir. Avval Ishlab chiqish menyusini yoqishimiz kerak.
 
-Open Preferences and go to the “Advanced” pane. There’s a checkbox at the bottom:
+Preferences-ni oching va Kengaytirilgan bolimiga oting. Pastki qismida tasdiqlash qutisi mavjud
 
+Endi Cmd + Opt + C konsolni almashtirishi mumkin. Shuningdek Rivojlanish nomli yangi yuqori menyu elementi paydo bolganiga etibor bering. Unda koplab buyruqlar va variantlar mavjud.
 
-
-Now Cmd+Opt+C can toggle the console. Also, note that the new top menu item named “Develop” has appeared. It has many commands and options.
-
-Summary
-Developer tools allow us to see errors, run commands, examine variables, and much more.
-They can be opened with F12 for most browsers on Windows. Chrome for Mac needs Cmd+Opt+J, Safari: Cmd+Opt+C (need to enable first).
+Xulosa Ishlab chiquvchi vositalari bizga xatolarni korishbuyruqlarni bajarish ozgaruvchilarni tekshirish va boshqalarga imkon beradi.Ular Windows-dagi kOpgina brauzerlar uchun F12 bilan ochilishi mumkin. Mac uchun Chrome-ga Cmd+Opt+J Safari Cmd+Opt+C kerak avval faollashtirish kerak.
