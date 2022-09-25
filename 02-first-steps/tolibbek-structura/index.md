@@ -198,11 +198,11 @@ alert('Hello')
 alert('World')
 ```
 
-Here, JavaScript interprets the line break as an "implicit" semicolon. This is called an [automatic semicolon insertion](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion).
+Bu erda JavaScript satr uzilishini "noto'g'ri" nuqtali vergul sifatida izohlaydi. Bu [automatic semicolon insertion](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion) deb ataladi.
 
-**In most cases, a newline implies a semicolon. But "in most cases" does not mean "always"!**
+**Eng ko'p qutilar ichida,yangi qatorni nuqtali vergul bildiradi. Lekin "eng ko'p qutilarda"  "har doim" unday ifodalanmaydi!**
 
-There are cases when a newline does not mean a semicolon. For example:
+Yangi qatorda nuqtali vergulni bildirmaydigan holatlar bor. Masalan:
 
 ```js run no-beautify
 alert(3 +
@@ -210,7 +210,7 @@ alert(3 +
 + 2);
 ```
 
-The code outputs `6` because JavaScript does not insert semicolons here. It is intuitively obvious that if the line ends with a plus `"+"`, then it is an "incomplete expression", so a semicolon there would be incorrect. And in this case, that works as intended.
+Kod chiqadi `6` chunki JavaScript bu yerga nuqta-vergul qo'ymaydi. Agar chiziq plyus bilan tugasa, intuitiv ravishda aniq `"+"`, keyin bu  "incomplete expression", shuning uchun nuqtali vergul noto'g'ri bo'ladi. Va bu holda, bu maqsadga muvofiq ishlaydi.
 
 **But there are situations where JavaScript "fails" to assume a semicolon where it is really needed.**
 
