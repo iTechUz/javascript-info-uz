@@ -25,10 +25,7 @@ Turli xil dvigitillar tutli xil codenamelariga ega.Misol uchun:
 - [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- Chrome, Opera va Edgeda.
 - [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- Firefoxda.
 - 
-Yuqoridagi shartlarni eslab qolish yaxshidir, chunki ular internetdagi ishlab chiquvchilar maqolalarida qo'llaniladi. Biz ham ulardan foydalanamiz. Misol uchun, agar "X xususiyati V8 tomonidan qo'llab-quvvatlansa", u ehtimol Chrome, Opera va Edge'da ishlaydi.
-
-<<<<<<< HEAD
-Dvigatellar murakkab.Lekin asoslari oson.
+Yuqoridagi shartlarni eslab qolish yaxshidir, chunki ular internetdagi ishlab chiquvchilar maqolalarida qo'llaniladi. Biz ham ulardan foydalanamiz. Misol uchun, agar "X xususiyati V8 tomonidan qo'llab-quvvatlansa", u ehtimol Chrome, Opera va Edge'da ishlaydi
 
 1. Dvigatel (agar u brauzer bo'lsa, o'rnatilgan) skriptni o'qiydi ("tahlil qiladi").
 2. Keyin u skriptni mashina kodiga aylantiradi ("kompilyatsiya qiladi").
@@ -195,5 +192,5 @@ Yana bor. Albatta, biz ushbu transpilyatsiya qilingan tillardan birini ishlatsak
 
 - JavaScript dastlab faqat brauzer tili sifatida yaratilgan, ammo hozir u ko'plab boshqa muhitlarda ham qo'llaniladi.
 - Bugungi kunda JavaScript HTML/CSS bilan to'liq integratsiyalashgan eng keng tarqalgan brauzer tili sifatida o'ziga xos mavqega ega.
-- JavaScript-ga "ko'chiriladigan" va ma'lum xususiyatlarni ta'minlaydigan ko'plab tillar mavjud. JavaScript-ni o'zlashtirgandan so'ng, ularni hech bo'lmaganda qisqacha ko'rib chiqish tavsiya etiladi.
+- JavaScript-ga "ko'chiriladigan" va ma'lum xususiyatlarni ta'minlaydigan ko'plab tillar mavjud.JavaScript-ni o'zlashtirgandan so'ng, ularni hech bo'lmaganda qisqacha ko'rib chiqish tavsiya etiladi.
 >>>>>>> bcf7fb4df405c8b91111fcaf6937cb76145b7be4
