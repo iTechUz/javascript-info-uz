@@ -115,7 +115,7 @@ Kotlin zamonaviy, ixcham va xavfsiz dasturlash tili bo'lib, u brauzer yoki tugun
 JavaScript dastlab faqat brauzer tili sifatida yaratilgan, ammo hozir u ko'plab boshqa muhitlarda ham qo'llaniladi.
 Bugungi kunda JavaScript HTML/CSS bilan to'liq integratsiyalashgan eng keng tarqalgan brauzer tili sifatida o'ziga xos mavqega ega.
 JavaScript-ga "ko'chiriladigan" va ma'lum xususiyatlarni ta'minlaydigan ko'plab tillar mavjud. JavaScript-ni o'zlashtirgandan so'ng, ularni hech bo'lmaganda qisqacha ko'rib chiqishingiz tavsiya etiladi.
-=======
+
 Zamonaviy JavaScript - bu "xavfsiz" dasturlash tili. U xotira yoki protsessorga past darajadagi kirishni ta'minlamaydi, chunki u dastlab buni talab qilmaydigan brauzerlar uchun yaratilgan.
 
 JavaScript imkoniyatlari koʻp jihatdan u ishlayotgan muhitga bogʻliq. Masalan, [Node.js](https://wikipedia.org/wiki/Node.js) JavaScript-ga ixtiyoriy fayllarni oʻqish/yozish, tarmoq soʻrovlarini bajarish, va boshqalar.
@@ -193,4 +193,3 @@ Yana bor. Albatta, biz ushbu transpilyatsiya qilingan tillardan birini ishlatsak
 - JavaScript dastlab faqat brauzer tili sifatida yaratilgan, ammo hozir u ko'plab boshqa muhitlarda ham qo'llaniladi.
 - Bugungi kunda JavaScript HTML/CSS bilan to'liq integratsiyalashgan eng keng tarqalgan brauzer tili sifatida o'ziga xos mavqega ega.
 - JavaScript-ga "ko'chiriladigan" va ma'lum xususiyatlarni ta'minlaydigan ko'plab tillar mavjud.JavaScript-ni o'zlashtirgandan so'ng, ularni hech bo'lmaganda qisqacha ko'rib chiqish tavsiya etiladi.
->>>>>>> bcf7fb4df405c8b91111fcaf6937cb76145b7be4
