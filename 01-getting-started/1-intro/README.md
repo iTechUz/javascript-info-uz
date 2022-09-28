@@ -37,7 +37,7 @@ Dvigatel jarayonning har bir bosqichida optimallashtirishni qo'llaydi. U hatto t
 Zamonaviy JavaScript - bu "xavfsiz" dasturlash tili. U xotira yoki protsessorga past darajadagi kirishni ta'minlamaydi, chunki u dastlab buni talab qilmaydigan brauzerlar uchun yaratilgan.
 
 JavaScript imkoniyatlari jihatdan u ishlayotgan muhitga bogʻliq. Masalan, Node.js JavaScript-ga o'zboshimchalik bilan fayllarni oʻqish/yozish, tarmoq so'rovlarini bajarish va h.k. imkonini beruvchi funksiyalarni qo'llab-quvvatlaydi.
-=======
+
 Yuqoridagi shartlarni eslab qolish yaxshidir, chunki ular Internetdagi ishlab chiquvchilar maqolalarida qo'llaniladi. Biz ham ulardan foydalanamiz. Misol uchun, agar "X xususiyati V8 tomonidan qo'llab-quvvatlansa", u ehtimol Chrome, Opera va Edge'da ishlaydi.
 
 ```smart header="Dvigatellar qanday ishlaydi?"
