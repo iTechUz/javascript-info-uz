@@ -1,47 +1,89 @@
-DASTURCHI  KONSOLI kod xatolar qiladi.katta ehtimol hato qilasz.o men nma dyapman. siz albatta hato qilasz odam bolsangiz.
+# The modern mode, "use strict"
 
-Ammo brauzerdagi foydalanuvchilar bu hatolarni kormaydi.Agar scriptda biror nima notogri bolsa biz  koraolmymiz va togirlayolmaymiz.
+For a long time, JavaScript evolved without compatibility issues. New features were added to the language while old functionality didn't change.
 
-Xatolarni korish va skriptlar haqida koplab boshqa foydali malumotlarni olish uchun brauzerlarda ishlab chiquvchi vositalar ornatilgan.
+That had the benefit of never breaking existing code. But the downside was that any mistake or an imperfect decision made by JavaScript's creators got stuck in the language forever.
 
-Bazi ishlab chqaruvchilar ishlab chqarish uchun chrome fire-foxgadan foydalandilar.chunki bu saytlar eng yaxshi ishlab chiquvchi vositalar bor.Boshqa brauzerlar shuningdek bazan maxsus xususiyatlarga ega bo'lgan ishlab chiquvchilar vositalarini taqdim etadilar lekin odatda Chrome yoki Firefox uchun qolga olish ni oynaydilar. Shunday qilib ko'pchilik ishlab chiquvchilar sevimli brauzerga ega va muammo brauzerga xos bolsa boshqalarga o'tishadi.
+This was the case until 2009 when ECMAScript 5 (ES5) appeared. It added new features to the language and modified some of the existing ones. To keep the old code working, most such modifications are off by default. You need to explicitly enable them with a special directive: `"use strict"`.
 
-ishlab chiqaruvchi vositalar kuchli va kop hususiyatlari bor.boshlash uchun biz uni ochib chiqib xatolarni korib va JavaScriptda buyruqlarni ishlatishni organamiz.
+## "use strict"
 
-Google chrome bug html sahifasini oching.
+The directive looks like a string: `"use strict"` or `'use strict'`. When it is located at the top of a script, the whole script works the "modern" way.
 
-Undagi javascript kodida hatolik bor.bu har doimgi tashrivchilar kozidan yasharingan.shuning uchn uni korish uchunn ishlab chiquvchi vositalarni ochaylik.
+For example:
 
-F12 tugmalarini bosing yoki agar siz Mac-da bo'lsangiz Cmd+Opt+J tugmalarini bosing.
+```js
+"use strict";
 
-Ishlab chiquvchi vositalari sukut boyicha Konsol yorligida ochiladi.
+// this code works the modern way
+...
+```
 
-Bu qanday korinadi:af
+Quite soon we're going to learn functions (a way to group commands), so let's note in advance that `"use strict"` can be put at the beginning of a function. Doing that enables strict mode in that function only. But usually people use it for the whole script.
 
-Ishlab chiquvchi vositalarining aniq korinishi Chrome versiyasiga bogliq. Vaqti bilan ozgarib turadi lekin shunga oxshash bolishi kerak.
+````warn header="Ensure that \"use strict\" is at the top"
+Please make sure that `"use strict"` is at the top of your scripts, otherwise strict mode may not be enabled.
 
-Bu erda qizil rangli xato xabarini korishimiz mumkin. Bunday holda,skriptda nomalum lalala buyrugi mavjud.
-Ong tomonda xatolik yuz bergan satr raqami bilan bug html:12manbasiga bosiladigan havola mavjud.
-Xato xabari ostida kok > belgisi mavjud.Bu JavaScript buyruqlarini yozishimiz mumkin bolgan buyruqlar qatorini belgilaydi. Ularni ishga tushirish uchun Enter tugmasini bosing.
+Strict mode isn't enabled here:
 
-Endi biz xatolarni korishimiz mumkin va bu boshlash uchun etarli. Biz ishlab chiquvchi vositalariga keyinroq qaytamiz va brauzerda disk raskadrovka bolimida disk raskadrovkani chuquroq QAMRAB  olamiz.
+```js no-strict
+alert("some code");
+// "use strict" below is ignored--it must be at the top
 
+"use strict";
 
-Kop qatorli kirish Odatda biz konsolga kod qatorini qoyganimizda va Enter tugmasini bosganimizda u ishlaydi.
+// strict mode is not activated
+```
 
+Only comments may appear above `"use strict"`.
+````
 
-Bir nechta qatorlarni kiritish uchun Shift+Enter tugmalarini bosing. Shu tarzda JavaScript kodining uzun qismlarini kiritish mumkin.
+```warn header="There's no way to cancel `use strict`"
+There is no directive like `"no use strict"` that reverts the engine to old behavior.
 
-Firefox Edge va boshqalarKopgina boshqa brauzerlar ishlab chiquvchi vositalarini ochish uchun F12 dan foydalanadi.
+Once we enter strict mode, there's no going back.
+```
 
+## Browser console
 
-Ularning tashqi ko'rinishi va hissiyotlari juda oxshash. Ushbu vositalardan birini qanday ishlatishni bilganingizdan so'ng siz Chrome bilan boshlashingiz mumkin boshqasiga osongina o'tishingiz mumkin.
+When you use a [developer console](info:devtools) to run code, please note that it doesn't `use strict` by default.
 
-Safari
-Safari Windows/Linux tomonidan qollab-quvvatlanmaydigan Mac brauzeri bu erda biroz Oziga xosdir. Avval Ishlab chiqish menyusini yoqishimiz kerak.
+Sometimes, when `use strict` makes a difference, you'll get incorrect results.
 
-Preferences-ni oching va Kengaytirilgan bolimiga oting. Pastki qismida tasdiqlash qutisi mavjud
+So, how to actually `use strict` in the console?
 
-Endi Cmd + Opt + C konsolni almashtirishi mumkin. Shuningdek Rivojlanish nomli yangi yuqori menyu elementi paydo bolganiga etibor bering. Unda koplab buyruqlar va variantlar mavjud.
+First, you can try to press `key:Shift+Enter` to input multiple lines, and put `use strict` on top, like this:
 
-Xulosa Ishlab chiquvchi vositalari bizga xatolarni korishbuyruqlarni bajarish ozgaruvchilarni tekshirish va boshqalarga imkon beradi.Ular Windows-dagi kOpgina brauzerlar uchun F12 bilan ochilishi mumkin. Mac uchun Chrome-ga Cmd+Opt+J Safari Cmd+Opt+C kerak avval faollashtirish kerak.
+```js
+'use strict'; <Shift+Enter for a newline>
+//  ...your code
+<Enter to run>
+```
+
+It works in most browsers, namely Firefox and Chrome.
+
+If it doesn't, e.g. in an old browser, there's an ugly, but reliable way to ensure `use strict`. Put it inside this kind of wrapper:
+
+```js
+(function() {
+  'use strict';
+
+  // ...your code here...
+})()
+```
+
+## Should we "use strict"?
+
+The question may sound obvious, but it's not so.
+
+One could recommend to start scripts with `"use strict"`... But you know what's cool?
+
+Modern JavaScript supports "classes" and "modules" - advanced language structures (we'll surely get to them), that enable `use strict` automatically. So we don't need to add the `"use strict"` directive, if we use them.
+
+**So, for now `"use strict";` is a welcome guest at the top of your scripts. Later, when your code is all in classes and modules, you may omit it.**
+
+As of now, we've got to know about `use strict` in general.
+
+In the next chapters, as we learn language features, we'll see the differences between the strict and old modes. Luckily, there aren't many and they actually make our lives better.
+
+All examples in this tutorial assume strict mode unless (very rarely) specified otherwise.
