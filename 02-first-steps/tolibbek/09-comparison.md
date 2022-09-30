@@ -229,14 +229,13 @@ Biz matematikada ko'plab taqqoslashlarni bilamiz.
 
 Javascriptda ular quyidagicha yoziladi:
 
-- Greater/less than: <code>a &gt; b</code>, <code>a &lt; b</code>.
-- Greater/less than or equals: <code>a &gt;= b</code>, <code>a &lt;= b</code>.
-- Equals: `a == b`, please note the double equality sign `==` means the equality test, while a single one `a = b` means an assignment.
-- Not equals: In maths the notation is <code>&ne;</code>, but in JavaScript it's written as <code>a != b</code>.
+- Katta/kichik : <code>a &gt; b</code>, <code>a &lt; b</code>.
+- Katta/kichik yoki teng: <code>a &gt;= b</code>, <code>a &lt;= b</code>.
+- Teng: `a == b`, iltimos ikki tomonlama tenglik belgisiga e'tibor bering `==` tenglik testini bildiradi, bitta bo'lsa `a = b` topshiriqni bildiradi.
+- Teng emas: matematika yozuvida bunday <code>&ne;</code>, lekin Javascriptda bunday yoziladi<code>a != b</code>.
 
-In this article we'll learn more about different types of comparisons, how JavaScript makes them, including important peculiarities.
-
-At the end you'll find a good recipe to avoid "JavaScript quirks"-related issues.
+Ushbu maqaloda turli xil taqqoslash turlari haqida bilib olamiz, Javascripy ularni qanday qiladi,shu jumladan ularni o'ziga xosliklarini.
+Oxirida siz "JavaScript noaniqliklari" bilan bog'liq muammolarni oldini olish uchun yaxshi retsept topasiz.
 
 ## Boolean is the result
 
